@@ -40,7 +40,7 @@ public class FileUploadServlet extends HttpServlet {
 	  doPost(request, response);
 	 }
 	 
-
+	 //测试git，添加一行注释
 	 public void init(ServletConfig config) {
 	  // 在web.xml中设置的一个初始化参数
 	  savePath = config.getInitParameter("savePath");
